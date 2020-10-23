@@ -1,0 +1,420 @@
+@-ms-viewport {
+  width: device-width;
+}
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+@font-face {
+font-family: 'Gilroy';
+src: url('../fonts/Gilroy-Medium.eot');
+src: url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Gilroy-Medium.woff') format('woff'),
+url('../fonts/Gilroy-Medium.ttf') format('truetype');
+font-weight: 500;
+font-style: normal;
+}
+@font-face {
+font-family: 'Gilroy';
+src: url('../fonts/Gilroy-SemiBold.eot');
+src: url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Gilroy-SemiBold.woff') format('woff'),
+url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Gilroy';
+src: url('../fonts/Gilroy-Bold.eot');
+src: url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Gilroy-Bold.woff') format('woff'),
+url('../fonts/Gilroy-Bold.ttf') format('truetype');
+font-weight: 700;
+font-style: normal;
+}
+@font-face {
+font-family: 'Gilroy';
+src: url('../fonts/Gilroy-ExtraBold.eot');
+src: url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
+url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
+font-weight: 800;
+font-style: normal;
+}
+@font-face {
+font-family: 'Gilroy';
+src: url('../fonts/Gilroy-Black.eot');
+src: url('../fonts/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Gilroy-Black.woff') format('woff'),
+url('../fonts/Gilroy-Black.ttf') format('truetype');
+font-weight: 900;
+font-style: normal;
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald-ExtraLight.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald-Light.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald-Regular.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald-Medium.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald-SemiBold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald-Bold.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-L.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-LI.ttf) format('truetype');
+    font-weight: 400;
+    font-style: italic
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-R.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-RI.ttf) format('truetype');
+    font-weight: 500;
+    font-style: italic
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-M.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-MI.ttf) format('truetype');
+    font-weight: 600;
+    font-style: italic
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-B.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-BI.ttf) format('truetype');
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url(../fonts/UbuntuMono-B.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url(../fonts/UbuntuMono-BI.ttf) format('truetype');
+    font-weight: 600;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url(../fonts/UbuntuMono-R.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url(../fonts/UbuntuMono-RI.ttf) format('truetype');
+    font-weight: 500;
+    font-style: italic
+}
+
+body {
+	font-family: 'Gilroy';
+	font-weight: 500;
+	font-size: 16px;
+	color: #fff;
+	background: linear-gradient(91.19deg, #1C1A37 0.82%, #0A0824 106.61%);
+}
+.panel {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	max-width: 600px;
+	margin: 0 auto;
+	display: block;
+	float: none;
+	background: #151230;
+box-shadow: 0px 0px 70px rgba(9, 6, 39, 0.8);
+border-radius: 20px;
+}
+.panel .form {
+	float: none;
+}
+.formItem {
+	margin-bottom: 30px;
+	float: none;
+	position: relative;
+}
+.formItem__icon {
+	height: 53px;
+	width: 60px;
+	top: 33px;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	z-index: 2;
+}
+.formItem__icon img {
+	max-width: 17px;
+	max-height: 17px;
+}
+.panel .title {
+	font-size: 36px;
+	line-height: 41px;
+	font-weight: 700;
+	color: #fff;
+}
+.btn-transparent,
+button,
+.formItem button {
+	font-size: 18px;
+	font-weight: 800;
+	height: 58px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	letter-spacing: 0.05em;
+text-transform: uppercase;
+font-family: 'Gilroy';
+	background: linear-gradient(91.82deg, #0EADB9 -0.28%, #8A04E0 50.49%, #FF30FB 110.49%);
+border-radius: 10px;
+color: #fff;
+text-decoration: none;
+position: relative;
+z-index: 1;
+}
+button::after,
+.formItem button::after {
+position: absolute;
+display: block;
+content: " ";
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+border-radius: 10px;
+	background: linear-gradient(91.82deg, #FF30FB -0.28%, #8A04E0 50.49%, #0EADB9 110.49%);
+	opacity: 0;
+	z-index: -1;
+	transition: all 0.3s;
+}
+button:hover::after,
+.formItem button:hover::after {
+	opacity: 1;
+}
+.btn-transparent::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	top: 2px;
+	left: 2px;
+	right: 2px;
+	bottom: 2px;
+	background: #151230;
+	z-index: -1;
+	transition: all 0.3s;
+	border-radius: 10px;
+}
+.btn-transparent:hover::before {
+	opacity: 0;
+}
+.formItem input {
+	height: 53px;
+	padding-left: 62px;
+	padding-right: 15px;
+	color: #fff;
+	background: #22214B;
+border: 1px solid #3A387C;
+border-radius: 10px;
+transition: all 0.3s;
+width: 100%;
+}
+.formItem input:focus,
+.formItem input:hover {
+	background: #2A295A;
+border-color: #4A47A8;
+box-shadow: 0px 0px 8px #4B489F;
+}
+.wrapper {
+	max-width: 1128px;
+}
+.buttons-form {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.buttons-form button,
+.buttons-form .btn-transparent {
+	flex: 1;
+}
+.buttons-form button {
+	margin-right: 30px;
+}
+.formItem label {
+	font-size: 16px;
+	line-height: 18px;
+	color: #BCBAD2;
+	padding-bottom: 12px;
+}
+.formItem .fright {
+	padding-top: 10px;
+	display: block;
+	float: none;
+	text-align: right;
+}
+.fright a {
+	position: relative;
+	 background: linear-gradient(to right, rgba(14, 173, 185, 1), rgba(138, 4, 224, 1),rgba(255, 48, 251, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fright a::after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 100%;
+	height: 1px;
+	bottom: 0;
+	left: 0;
+		 background: linear-gradient(to right, rgba(14, 173, 185, 1), rgba(138, 4, 224, 1),rgba(255, 48, 251, 1));
+}
+.logo__descr {
+	font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+font-family: Oswald;
+margin-left: 17px;
+max-width: 84px;
+color: #FFFFFF;
+}
+.header .logo {
+	margin-top: 0;
+	display: inline-flex;
+	align-items: center;
+	text-decoration: none;
+}
+.header .logo img {
+	width: 74px;
+	height: 44px;
+}
+.link-laguage {
+	font-size: 14px;
+line-height: 16px;
+font-weight: 700;
+text-transform: uppercase;
+color: #fff;
+text-decoration: none;
+width: 39px;
+height: 39px;
+border-radius: 50%;
+background: #23214B;
+border: 1px solid #3A387C;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transition: all 0.3s;
+}
+.link-laguage:hover {
+	    border-color: #4A47A8;
+    box-shadow: 0px 0px 8px #4B489F;
+}
+.header__wrap {
+	padding-top: 40px;
+	padding-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.header {
+	height: auto;
+}
+.copyright {
+	font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+padding-bottom: 20px;
+margin-top: auto;
+text-align: center;
+	 background: linear-gradient(to right, rgba(149, 144, 222, 1), rgba(152, 147, 238, 0.09));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.wrapper_panel {
+	min-height: calc(100vh - 160px);
+	display: flex;
+	flex-direction: column;
+}
+.wrapper_panel .panel {
+	margin-top: auto;
+	margin-bottom: 40px;
+}

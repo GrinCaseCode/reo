@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Referral program - roemaker</title>
+    <link rel="shortcut icon" href="/img/favicon_roemaker.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="dashboard">
+<div class="header">
+    <div class="wrapper">
+        <div class="left half">
+            <a class="logo" href="/">
+                <img src="img/logo.svg" alt="QUANTOWER LOGO">
+            </a>
+        </div>
+
+        <div class="right half">
+            <div class="userSide">
+                <div class="name">
+                    
+                    <a class="logOut" title="Log out" href="/logout"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="wrapper">
+        
+
+
+<div class="dashPanel small dashPanel_referal">
+    <div class="panelHeader">
+        <div class="panelTitle">
+            My Referral program
+        </div>
+    </div>
+
+    <div class="panelBody">
+        <table cellpadding="0" cellspacing="0" class="addonsTable">
+            <tbody>
+            <tr>
+                <td>
+                    <label for="">Available balance</label><br><small>*Contact support for withdrawal</small>
+                </td>
+                <td>$0</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Referral link</label>
+                </td>
+                <td>
+                    <a class="refLink" title="Click to copy link in buffer" onclick="copyToClipboard('https://accounts.roemaker.qtower.app/referral?referral_code=fT0ry%2b3b5O')">fT0ry&#x2B;3b5O</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Referrer share</label>
+                </td>
+                <td>20 %</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="panelFooter">
+        <div>
+            <a href="/ReferralProgram/EditReferrerSettings">
+                <button formaction="/ReferralProgram/EditReferrerSettings">
+                    update settings
+                </button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<script>
+    const copyToClipboard = str => {
+        const el = document.createElement('textarea');
+        el.value = str;
+        el.setAttribute('readonly', '');
+        el.style.position = 'absolute';
+        el.style.left = '-9999px';
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+    };
+</script>
+<div class="dashPanel small">
+    <div class="panelHeader">
+        <div class="panelTitle">
+            Performance
+        </div>
+    </div>
+
+    <div class="panelBody">
+        <table cellpadding="0" cellspacing="0" class="paymentsHistoryTable">
+            <thead>
+            <tr>
+                <th></th>
+                <th>Total</th>
+                <th>Last month</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>Referrals</td>
+                <td>0</td>
+                <td>+0</td>
+            </tr>
+
+            <tr>
+                <td>Purchases</td>
+                <td>0</td>
+                <td>+0</td>
+            </tr>
+
+            <tr>
+                <td>Gain</td>
+                <td>$0</td>
+                <td>$0</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+
+<div class="dashPanel">
+    <div class="panelHeader">
+        <div class="panelTitle">
+            Referrals
+        </div>
+    </div>
+
+    <div class="panelBody">
+
+        
+<div class="mvc-grid mvc-grid-excel-mode" data-name="" data-filter-mode="Excel" data-url="">
+    <table>
+        <thead>
+        <tr class="mvc-grid-headers">
+                <th data-name="Name">
+                        <span class="mvc-grid-title">Name</span>
+                </th>
+                <th>
+                        <span class="mvc-grid-title">Assigned</span>
+                </th>
+                <th data-name="PurchasesCount">
+                        <span class="mvc-grid-title">Purchases</span>
+                </th>
+                <th data-name="Gain">
+                        <span class="mvc-grid-title">Gain</span>
+                </th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr class="mvc-grid-empty-row">
+                <td colspan="4">
+                    Now you don&amp;#x27;t have any referrals
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+<div class="mvc-grid-pager" data-show-page-sizes="False" data-total-rows="0">
+        <input class="mvc-grid-pager-rows" type="hidden" value="5"/>
+</div></div>
+
+    </div>
+</div>
+<div class="dashPanel">
+    <div class="panelHeader">
+        <div class="panelTitle">
+            Referral incomes
+        </div>
+    </div>
+
+    <div class="panelBody">
+
+        
+<div class="mvc-grid mvc-grid-excel-mode" data-name="" data-filter-mode="Excel" data-url="">
+    <table>
+        <thead>
+        <tr class="mvc-grid-headers">
+                <th data-name="Name">
+                        <span class="mvc-grid-title">Referral Name</span>
+                </th>
+                <th>
+                        <span class="mvc-grid-title">Payment date</span>
+                </th>
+                <th data-name="PurchaseAmount">
+                        <span class="mvc-grid-title">Sum</span>
+                </th>
+                <th>
+                        <span class="mvc-grid-title">Share</span>
+                </th>
+                <th data-name="Gain">
+                        <span class="mvc-grid-title">Gain</span>
+                </th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr class="mvc-grid-empty-row">
+                <td colspan="5">
+                    Now you don&amp;#x27;t have any purchases from referrals
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+<div class="mvc-grid-pager" data-show-page-sizes="False" data-total-rows="0">
+        <input class="mvc-grid-pager-rows" type="hidden" value="5"/>
+</div></div>
+
+    </div>
+</div>
+    </div>
+</div>
+
+
+<script src="/js/mvc-grid/mvc-grid.js"></script>
+<script>
+        document.querySelectorAll(".mvc-grid").forEach(element => new MvcGrid(element));
+    </script>
+
+
+</body>
+</html>

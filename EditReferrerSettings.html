@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>EditReferrerSettings - roemaker</title>
+    <link rel="shortcut icon" href="/img/favicon_roemaker.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="dashboard">
+<div class="header">
+    <div class="wrapper">
+        <div class="left half">
+            <a class="logo" href="/">
+                <img src="img/logo.svg" alt="QUANTOWER LOGO">
+            </a>
+        </div>
+
+        <div class="right half">
+            <div class="userSide">
+                <div class="name">
+                    
+                    <a class="logOut" title="Log out" href="/logout"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="wrapper">
+        
+
+<div class="panel">
+    <div class="title">
+        Edit settings
+    </div>
+
+    <div class="form">
+        <form method="post" action="/ReferralProgram/ApplySettings">
+            <div class="formItem">
+                <label for="ReferralCode">
+                    Referral code
+                </label>
+                <input value="fT0ry&#x2B;3b5O" maxlength="50" autofocus type="text" data-val="true" data-val-required="Referral code is required" id="ReferralCode" name="ReferralCode">
+            </div>
+
+            <div class="formItem">
+                <button type="submit">Apply</button>
+            </div>
+
+            <div class="separ"></div>
+
+            <div class="formItem">
+                
+            </div>
+
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8C3lNwXYzv1MiY4JlNj6cqaKQ9YdF3NiX5UFrwhSkzW7vxx8GiammIAUj_0apA10ONzAIvIcHOVDbihhii1EibZ6apbLPTlhyHDG2y9NYy-mar9u3zUrefAFKw6vhgS9LbjdfK51ElizkgsD8pUifhm68W63iQbL1r7ze6crJPfz_qibLTjWblwrd58Ryuj-rQ" /></form>
+    </div>
+</div>
+    </div>
+</div>
+
+
+<script src="/js/mvc-grid/mvc-grid.js"></script>
+<script>
+        document.querySelectorAll(".mvc-grid").forEach(element => new MvcGrid(element));
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>OrderPayment - roemaker</title>
+    <link rel="shortcut icon" href="/img/favicon_roemaker.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="dashboard">
+<div class="header">
+    <div class="wrapper">
+        <div class="left half">
+            <a class="logo" href="/">
+                <img src="img/logo.svg" alt="QUANTOWER LOGO">
+            </a>
+        </div>
+
+        <div class="right half">
+            <div class="userSide">
+                <div class="name">
+                    Vitaliy Borzenko
+                    <a class="logOut" title="Log out" href="/logout"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="wrapper">
+        
+
+<form method="post">
+    <div class="dashPanel">
+
+        <div class="panelHeader">
+            <div class="panelTitle">
+                Order payment
+                <div class="fright">
+                    <div class="items">
+                        10/26/2020
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panelBody">
+                <table cellpadding="0" cellspacing="0" class="">
+                    <thead>
+                    <tr>
+                        <th>
+                            Item
+                        </th>
+                        <th>
+                            Months
+                        </th>
+                        <th>
+                            Price
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+<input type="hidden" name="LicenceRulesOrder.index" autocomplete="off" value="4b5dbf9e-2be1-4f1d-ac24-ddd65b25583e" />
+    <tr id="ALLINONE_PACKAGE" class=>
+
+
+
+        <td>
+            <input type="hidden" value="ALLINONE_PACKAGE" id="LicenceRulesOrder_4b5dbf9e-2be1-4f1d-ac24-ddd65b25583e__LicenceRuleId" name="LicenceRulesOrder[4b5dbf9e-2be1-4f1d-ac24-ddd65b25583e].LicenceRuleId">
+
+            <input type="checkbox" onchange="UpdateCheck('ALLINONE_PACKAGE_select', 'ALLINONE_PACKAGE');" checked="checked" data-val="true" data-val-required="The Checked field is required." id="LicenceRulesOrder_4b5dbf9e-2be1-4f1d-ac24-ddd65b25583e__Checked" name="LicenceRulesOrder[4b5dbf9e-2be1-4f1d-ac24-ddd65b25583e].Checked" value="true" />
+            <label for="LicenceRulesOrder_4b5dbf9e-2be1-4f1d-ac24-ddd65b25583e__Checked">All-in-One Package</label>
+        </td>
+        <td>
+            <div class="selectBox">
+
+
+                <input id="ALLINONE_PACKAGE_period" type="hidden" value="Month1" data-val="true" data-val-required="The LicenceRulePeriod field is required." name="LicenceRulesOrder[4b5dbf9e-2be1-4f1d-ac24-ddd65b25583e].LicenceRulePeriod">
+
+                <label for="ALLINONE_PACKAGE_select" class="select">
+
+                    <input type="radio" name="ALLINONE_PACKAGE_list" value="Month1" id="ALLINONE_PACKAGE_bg" onclick="document.getElementById('ALLINONE_PACKAGE_select_item_' + this.value).click()">
+
+                    <input type="radio" name="ALLINONE_PACKAGE_list" value="Month1" id="ALLINONE_PACKAGE_select" class="selectInput">
+
+                    <label class="bg" for="ALLINONE_PACKAGE_bg"></label>
+
+                    <div class="items">
+
+                            <input type="radio" name="ALLINONE_PACKAGE_list" value="Month1" id="ALLINONE_PACKAGE_select_item_Month1" checked=checked
+                                   onclick="document.getElementById('ALLINONE_PACKAGE_select').value = document.getElementById('ALLINONE_PACKAGE_bg').value = document.getElementById('ALLINONE_PACKAGE_period').value = this.value;
+                                   UpdateItemPrice('ALLINONE_PACKAGE_price', 'ALLINONE_PACKAGE', this.value)">
+                            <label for="ALLINONE_PACKAGE_select_item_Month1">
+                                1 month<span class="discount">-0%</span>
+                            </label>
+                            <input type="radio" name="ALLINONE_PACKAGE_list" value="Month3" id="ALLINONE_PACKAGE_select_item_Month3"
+                                   onclick="document.getElementById('ALLINONE_PACKAGE_select').value = document.getElementById('ALLINONE_PACKAGE_bg').value = document.getElementById('ALLINONE_PACKAGE_period').value = this.value;
+                                   UpdateItemPrice('ALLINONE_PACKAGE_price', 'ALLINONE_PACKAGE', this.value)">
+                            <label for="ALLINONE_PACKAGE_select_item_Month3">
+                                3 months<span class="discount">-10%</span>
+                            </label>
+                            <input type="radio" name="ALLINONE_PACKAGE_list" value="Month6" id="ALLINONE_PACKAGE_select_item_Month6"
+                                   onclick="document.getElementById('ALLINONE_PACKAGE_select').value = document.getElementById('ALLINONE_PACKAGE_bg').value = document.getElementById('ALLINONE_PACKAGE_period').value = this.value;
+                                   UpdateItemPrice('ALLINONE_PACKAGE_price', 'ALLINONE_PACKAGE', this.value)">
+                            <label for="ALLINONE_PACKAGE_select_item_Month6">
+                                6 months<span class="discount">-20%</span>
+                            </label>
+                            <input type="radio" name="ALLINONE_PACKAGE_list" value="Year1" id="ALLINONE_PACKAGE_select_item_Year1"
+                                   onclick="document.getElementById('ALLINONE_PACKAGE_select').value = document.getElementById('ALLINONE_PACKAGE_bg').value = document.getElementById('ALLINONE_PACKAGE_period').value = this.value;
+                                   UpdateItemPrice('ALLINONE_PACKAGE_price', 'ALLINONE_PACKAGE', this.value)">
+                            <label for="ALLINONE_PACKAGE_select_item_Year1">
+                                1 year<span class="discount">-30%</span>
+                            </label>
+
+                        <span class="placeholder">Select period </span>
+
+                    </div>
+
+                </label>
+            </div>
+
+        </td>
+        <td>
+            <b id="ALLINONE_PACKAGE_price">$ 100</b>
+        </td>
+    </tr>
+                    </tbody>
+                </table>
+        </div>
+
+        <div class="panelFooter text-center">
+            <div class="fright">
+                <div class="total">Total: <b id="order_total_cost">$ 100</b></div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="dashPanel">
+    <div class="panelFooter">
+        <div class="fleft">
+            <img src="img/paymentSystems/coinpayments.png" alt="">
+        </div>
+        <div class="fright">
+            <button formaction="/OrderPayment/PayWithCoinpayments" type="submit" class="medium pay_btn">
+                Pay with CoinPayments
+            </button>
+        </div>
+    </div>
+</div>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8C3lNwXYzv1MiY4JlNj6cqaFwABVC-WYVrTaxMgmJJOi-iup1bfZX86UuKEeYoXcsok7x2eQyQfx4vSmeubkxcS7bW2vBb8Q3-jRPS-ndbZwlEDaMH9T7KdPK88H04dkOQNoHKbUVNteWEn1vHpV4_x9CuCUv3WYwI6cSypAQ2aHDiORGOtry_K1K4EpbVjWLQ" /><input name="LicenceRulesOrder[4b5dbf9e-2be1-4f1d-ac24-ddd65b25583e].Checked" type="hidden" value="false" /></form>
+
+
+<script type="text/javascript">
+
+    {
+        var pageUrl = "https://accounts.roemaker.qtower.app/OrderPayment";
+    }
+
+    function UpdateCheck(inputId, rowId)
+    {
+        var selector = document.getElementById(inputId);
+        if (selector != null)
+        {
+            selector.disabled = !selector.disabled;
+
+            var row = document.getElementById(rowId);
+            if (row != null)
+            {
+                if (selector.disabled)
+                    row.classList.add("disabled");
+                else
+                    row.classList.remove("disabled")
+            }
+        }
+
+        xhr = new XMLHttpRequest();
+        xhr.open('POST', pageUrl + '/UpdateOrderItemCheck');
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onload = function ()
+        {
+            if (xhr.status === 200)
+            {
+                UpdateTotalCost();
+            }
+            else if (xhr.status !== 200)
+            {
+                //error
+            }
+        };
+        var encodedString = encodeURI('ruleId=' + rowId) + '&' + encodeURI('isChecked=' + !selector.disabled);
+
+        xhr.send(encodedString);
+    }
+
+    function UpdateItemPrice(priceElementId, ruleId, rulePeriod)
+    {
+        var priceElement = document.getElementById(priceElementId);
+
+        //alert(priceElement.innerHTML);
+
+        xhr = new XMLHttpRequest();
+        xhr.open('POST', pageUrl + '/UpdateOrderItem');
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        //xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.onload = function ()
+        {
+            if (xhr.status === 200)
+            {
+                priceElement.innerHTML = xhr.responseText;
+
+                UpdateTotalCost();
+            }
+            else if (xhr.status !== 200)
+            {
+                //error
+                //alert('Request failed.  Returned status of ' + xhr.status);
+            }
+        };
+        var encodedString = encodeURI('ruleId=' + ruleId) + '&' + encodeURI('rulePeriod=' + rulePeriod);
+
+        xhr.send(encodedString);
+
+        //xhr.send(JSON.stringify(
+        //    {
+        //        RuleId: ruleId,
+        //        PeriodType: encodeURI(rulePeriod)
+        //    }));
+
+        //priceElement.innerHTML = "$ 100500";
+    }
+
+    function UpdateTotalCost()
+    {
+        var priceElement = document.getElementById("order_total_cost");
+
+        xhr = new XMLHttpRequest();
+        xhr.open('POST', pageUrl + '/UpdateTotalCost');
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        //xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.onload = function ()
+        {
+            if (xhr.status === 200)
+            {
+                priceElement.innerHTML = '$ ' + xhr.responseText;
+
+                var disabled = xhr.responseText == "0";
+
+                var elements = document.getElementsByClassName("pay_btn");
+                for (var i = 0; i < elements.length; i++) {
+                    UpdateElementEnability(elements[i], disabled)
+                }
+            }
+            else if (xhr.status !== 200)
+            {
+                //error
+                //alert('Request failed.  Returned status of ' + xhr.status);
+            }
+        };
+        xhr.send("");
+    }
+
+    function UpdateElementEnabilityById(elementId, disabled)
+    {
+        var paypalBtn = document.getElementById(elementId);
+        UpdateElementEnability(paypalBtn, disabled);
+    }
+
+    function UpdateElementEnability(paypalBtn, disabled)
+    {
+        if (paypalBtn != null)
+        {
+            paypalBtn.disabled = disabled;
+
+            if (paypalBtn.disabled)
+                paypalBtn.classList.add("disabled");
+            else
+                paypalBtn.classList.remove("disabled")
+        }
+    }
+
+</script>
+    </div>
+</div>
+
+
+<script src="/js/mvc-grid/mvc-grid.js"></script>
+<script>
+        document.querySelectorAll(".mvc-grid").forEach(element => new MvcGrid(element));
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>UpdateUserInfo</title>
+    <link rel="shortcut icon" href="/img/favicon_roemaker.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.0.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"></script>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.0.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"></script>
+</head>
+<body>
+<div class="header">
+
+    <div class="wrapper">
+
+        <div class="left half">
+            <a class="logo" href="#">
+                <img src="img/logo.svg" alt="QUANTOWER LOGO">
+            </a>
+        </div>
+
+
+    </div>
+
+</div>
+
+<div class="main">
+    <div class="wrapper">
+
+        
+
+<div class="panel">
+    <div class="title">
+        Edit account info
+    </div>
+    <div class="descr">
+        If you want to change your email address -
+        <a href="https://www.roemaker.com/contact-us">Contact Support</a>
+    </div>
+
+    <form action="/Account/EditUserInfo" method="post">
+
+        <input hidden value="https://accounts.roemaker.qtower.app/renewSession" type="text" id="ReturnUrl" name="ReturnUrl" />
+
+        <div class="form">
+
+                <div class="formItem">
+                     <div class="formItem__icon">
+                    <img src="img/ic_mail.svg" alt="alt">
+                </div>
+                    <label for="Email">
+                        Email
+                        <span class="errorMessage field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                    </label>
+                    <input type="email" value="algotradingdeveloper@gmail.com" maxlength="50" autofocus data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-length="The email cannot be longer than 50 characters." data-val-length-max="50" data-val-required="The email is required" id="Email" name="Email">
+                </div>
+
+
+
+            <div class="formItem">
+                <div class="formItem__icon">
+                    <img src="img/ic_user.svg" alt="alt">
+                </div>
+                <label for="FullName">
+                    Full Name
+                    <span class="errorMessage field-validation-valid" data-valmsg-for="FullName" data-valmsg-replace="true"></span>
+                </label>
+                <input value="Vitaliy Borzenko" maxlength="50" type="text" data-val="true" data-val-length="The full name cannot be longer than 50 characters." data-val-length-max="50" data-val-regex="Contains forbidden characters." data-val-regex-pattern="^[\w\s\.\-&#x27;]&#x2B;$" data-val-required="The full name is required" id="FullName" name="FullName">
+            </div>
+
+            <div class="formItem">
+                <button type="submit" class="">Save</button>
+            </div>
+
+            <div class="separ"></div>
+
+            <div class="formItem center">
+                <a class="getStarted" href="https://accounts.roemaker.qtower.app/renewSession">Back to DASHBOARD</a>
+            </div>
+        </div>
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8IAVyEU_HYlEuSSn2BKCv4H1VK0TRKmuoew8kbBk-uO0bMTkbukvVTiiOMn5aOjiapJT8m--XqKbZYO9xyvDJiGwWQlzNWkpZn4BlmyOr92SYxkX_E_HkZ2Dx9FgoSOI4LZOo-f1HRW-ZCcalSrYUSx2eoSBf0ZqAW1yTys0P2stQVakIT1f6MTZTUU_c-OJ9Q" /></form>
+</div>
+
+    </div>
+</div>
+
+<div class="footer none">
+    <div class="powered">
+        <a href="https://www.quantower.com" target="_blank" title="Visit Quantower website">
+            <img src="img/poweredBadge.png" alt="Powered by Quantower"/>
+        </a>
+    </div>
+</div>
+
+</body>
+</html>

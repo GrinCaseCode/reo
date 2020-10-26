@@ -1,187 +1,187 @@
 @-ms-viewport {
-  width: device-width;
+	width: device-width;
 }
 
 html {
-  box-sizing: border-box;
-  -ms-overflow-style: scrollbar;
+	box-sizing: border-box;
+	-ms-overflow-style: scrollbar;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 @font-face {
-font-family: 'Gilroy';
-src: url('../fonts/Gilroy-Medium.eot');
-src: url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
-url('../fonts/Gilroy-Medium.woff') format('woff'),
-url('../fonts/Gilroy-Medium.ttf') format('truetype');
-font-weight: 500;
-font-style: normal;
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Medium.eot');
+	src: url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Gilroy-Medium.woff') format('woff'),
+	url('../fonts/Gilroy-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
 }
 @font-face {
-font-family: 'Gilroy';
-src: url('../fonts/Gilroy-SemiBold.eot');
-src: url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
-url('../fonts/Gilroy-SemiBold.woff') format('woff'),
-url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-SemiBold.eot');
+	src: url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Gilroy-SemiBold.woff') format('woff'),
+	url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-font-family: 'Gilroy';
-src: url('../fonts/Gilroy-Bold.eot');
-src: url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
-url('../fonts/Gilroy-Bold.woff') format('woff'),
-url('../fonts/Gilroy-Bold.ttf') format('truetype');
-font-weight: 700;
-font-style: normal;
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Bold.eot');
+	src: url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Gilroy-Bold.woff') format('woff'),
+	url('../fonts/Gilroy-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
 }
 @font-face {
-font-family: 'Gilroy';
-src: url('../fonts/Gilroy-ExtraBold.eot');
-src: url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
-url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
-url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
-font-weight: 800;
-font-style: normal;
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-ExtraBold.eot');
+	src: url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
+	url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
 }
 @font-face {
-font-family: 'Gilroy';
-src: url('../fonts/Gilroy-Black.eot');
-src: url('../fonts/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
-url('../fonts/Gilroy-Black.woff') format('woff'),
-url('../fonts/Gilroy-Black.ttf') format('truetype');
-font-weight: 900;
-font-style: normal;
-}
-
-@font-face {
-    font-family: Oswald;
-    src: url(../fonts/Oswald-ExtraLight.ttf) format('truetype');
-    font-weight: 300;
-    font-style: normal
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Black.eot');
+	src: url('../fonts/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Gilroy-Black.woff') format('woff'),
+	url('../fonts/Gilroy-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: Oswald;
-    src: url(../fonts/Oswald-Light.ttf) format('truetype');
-    font-weight: 400;
-    font-style: normal
+	font-family: Oswald;
+	src: url(../fonts/Oswald-ExtraLight.ttf) format('truetype');
+	font-weight: 300;
+	font-style: normal
 }
 
 @font-face {
-    font-family: Oswald;
-    src: url(../fonts/Oswald-Regular.ttf) format('truetype');
-    font-weight: 500;
-    font-style: normal
+	font-family: Oswald;
+	src: url(../fonts/Oswald-Light.ttf) format('truetype');
+	font-weight: 400;
+	font-style: normal
 }
 
 @font-face {
-    font-family: Oswald;
-    src: url(../fonts/Oswald-Medium.ttf) format('truetype');
-    font-weight: 600;
-    font-style: normal
+	font-family: Oswald;
+	src: url(../fonts/Oswald-Regular.ttf) format('truetype');
+	font-weight: 500;
+	font-style: normal
 }
 
 @font-face {
-    font-family: Oswald;
-    src: url(../fonts/Oswald-SemiBold.ttf) format('truetype');
-    font-weight: 700;
-    font-style: normal
+	font-family: Oswald;
+	src: url(../fonts/Oswald-Medium.ttf) format('truetype');
+	font-weight: 600;
+	font-style: normal
 }
 
 @font-face {
-    font-family: Oswald;
-    src: url(../fonts/Oswald-Bold.ttf) format('truetype');
-    font-weight: 800;
-    font-style: normal
+	font-family: Oswald;
+	src: url(../fonts/Oswald-SemiBold.ttf) format('truetype');
+	font-weight: 700;
+	font-style: normal
 }
 
 @font-face {
-    font-family: Ubuntu;
-    src: url(../fonts/Ubuntu-L.ttf) format('truetype');
-    font-weight: 400;
-    font-style: normal
+	font-family: Oswald;
+	src: url(../fonts/Oswald-Bold.ttf) format('truetype');
+	font-weight: 800;
+	font-style: normal
 }
 
 @font-face {
-    font-family: Ubuntu;
-    src: url(../fonts/Ubuntu-LI.ttf) format('truetype');
-    font-weight: 400;
-    font-style: italic
+	font-family: Ubuntu;
+	src: url(../fonts/Ubuntu-L.ttf) format('truetype');
+	font-weight: 400;
+	font-style: normal
 }
 
 @font-face {
-    font-family: Ubuntu;
-    src: url(../fonts/Ubuntu-R.ttf) format('truetype');
-    font-weight: 500;
-    font-style: normal
+	font-family: Ubuntu;
+	src: url(../fonts/Ubuntu-LI.ttf) format('truetype');
+	font-weight: 400;
+	font-style: italic
 }
 
 @font-face {
-    font-family: Ubuntu;
-    src: url(../fonts/Ubuntu-RI.ttf) format('truetype');
-    font-weight: 500;
-    font-style: italic
+	font-family: Ubuntu;
+	src: url(../fonts/Ubuntu-R.ttf) format('truetype');
+	font-weight: 500;
+	font-style: normal
 }
 
 @font-face {
-    font-family: Ubuntu;
-    src: url(../fonts/Ubuntu-M.ttf) format('truetype');
-    font-weight: 600;
-    font-style: normal
+	font-family: Ubuntu;
+	src: url(../fonts/Ubuntu-RI.ttf) format('truetype');
+	font-weight: 500;
+	font-style: italic
 }
 
 @font-face {
-    font-family: Ubuntu;
-    src: url(../fonts/Ubuntu-MI.ttf) format('truetype');
-    font-weight: 600;
-    font-style: italic
+	font-family: Ubuntu;
+	src: url(../fonts/Ubuntu-M.ttf) format('truetype');
+	font-weight: 600;
+	font-style: normal
 }
 
 @font-face {
-    font-family: Ubuntu;
-    src: url(../fonts/Ubuntu-B.ttf) format('truetype');
-    font-weight: 700;
-    font-style: normal
+	font-family: Ubuntu;
+	src: url(../fonts/Ubuntu-MI.ttf) format('truetype');
+	font-weight: 600;
+	font-style: italic
 }
 
 @font-face {
-    font-family: Ubuntu;
-    src: url(../fonts/Ubuntu-BI.ttf) format('truetype');
-    font-weight: 700;
-    font-style: italic
+	font-family: Ubuntu;
+	src: url(../fonts/Ubuntu-B.ttf) format('truetype');
+	font-weight: 700;
+	font-style: normal
 }
 
 @font-face {
-    font-family: 'Ubuntu Mono';
-    src: url(../fonts/UbuntuMono-B.ttf) format('truetype');
-    font-weight: 600;
-    font-style: normal
+	font-family: Ubuntu;
+	src: url(../fonts/Ubuntu-BI.ttf) format('truetype');
+	font-weight: 700;
+	font-style: italic
 }
 
 @font-face {
-    font-family: 'Ubuntu Mono';
-    src: url(../fonts/UbuntuMono-BI.ttf) format('truetype');
-    font-weight: 600;
-    font-style: italic
+	font-family: 'Ubuntu Mono';
+	src: url(../fonts/UbuntuMono-B.ttf) format('truetype');
+	font-weight: 600;
+	font-style: normal
 }
 
 @font-face {
-    font-family: 'Ubuntu Mono';
-    src: url(../fonts/UbuntuMono-R.ttf) format('truetype');
-    font-weight: 500;
-    font-style: normal
+	font-family: 'Ubuntu Mono';
+	src: url(../fonts/UbuntuMono-BI.ttf) format('truetype');
+	font-weight: 600;
+	font-style: italic
 }
 
 @font-face {
-    font-family: 'Ubuntu Mono';
-    src: url(../fonts/UbuntuMono-RI.ttf) format('truetype');
-    font-weight: 500;
-    font-style: italic
+	font-family: 'Ubuntu Mono';
+	src: url(../fonts/UbuntuMono-R.ttf) format('truetype');
+	font-weight: 500;
+	font-style: normal
+}
+
+@font-face {
+	font-family: 'Ubuntu Mono';
+	src: url(../fonts/UbuntuMono-RI.ttf) format('truetype');
+	font-weight: 500;
+	font-style: italic
 }
 
 body {
@@ -199,8 +199,8 @@ body {
 	display: block;
 	float: none;
 	background: #151230;
-box-shadow: 0px 0px 70px rgba(9, 6, 39, 0.8);
-border-radius: 20px;
+	box-shadow: 0px 0px 70px rgba(9, 6, 39, 0.8);
+	border-radius: 20px;
 }
 .panel .form {
 	float: none;
@@ -232,6 +232,8 @@ border-radius: 20px;
 	font-weight: 700;
 	color: #fff;
 }
+
+
 .panelFooter a.transparent,
 .links .panelBody a,
 .btn-transparent,
@@ -243,30 +245,31 @@ button,
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	font: none;
+	float: none;
 	text-align: center;
 	letter-spacing: 0.05em;
-text-transform: uppercase;
-font-family: 'Gilroy';
+	text-transform: uppercase;
+	font-family: 'Gilroy';
 	background: linear-gradient(91.82deg, #0EADB9 -0.28%, #8A04E0 50.49%, #FF30FB 110.49%);
-border-radius: 10px;
-color: #fff;
-text-decoration: none;
-position: relative;
-z-index: 1;
+	border-radius: 10px;
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	z-index: 1;
 }
+
 .panelFooter a.transparent::after,
 .links .panelBody a::after,
 button::after,
 .formItem button::after {
-position: absolute;
-display: block;
-content: " ";
-width: 100%;
-height: 100%;
-top: 0;
-left: 0;
-border-radius: 10px;
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	border-radius: 10px;
 	background: linear-gradient(91.82deg, #FF30FB -0.28%, #8A04E0 50.49%, #0EADB9 110.49%);
 	opacity: 0;
 	z-index: -1;
@@ -278,6 +281,8 @@ button:hover::after,
 .formItem button:hover::after {
 	opacity: 1;
 }
+.selectBox .select input:not(:checked)~.placeholder::before,
+.selectBox .items label::before,
 .dashPanel .panelFooter .transparent::before,
 .dashPanel .panelBody table tr td.actionsCol button::before,
 .btn-transparent::before {
@@ -298,22 +303,25 @@ button:hover::after,
 .btn-transparent:hover::before {
 	opacity: 0;
 }
+.selectBox .items {
+	border: none !important;
+}
 .formItem input {
 	height: 53px;
 	padding-left: 62px;
 	padding-right: 15px;
 	color: #fff;
 	background: #22214B;
-border: 1px solid #3A387C;
-border-radius: 10px;
-transition: all 0.3s;
-width: 100%;
+	border: 1px solid #3A387C;
+	border-radius: 10px;
+	transition: all 0.3s;
+	width: 100%;
 }
 .formItem input:focus,
 .formItem input:hover {
 	background: #2A295A;
-border-color: #4A47A8;
-box-shadow: 0px 0px 8px #4B489F;
+	border-color: #4A47A8;
+	box-shadow: 0px 0px 8px #4B489F;
 }
 .wrapper {
 	max-width: 1128px;
@@ -342,6 +350,8 @@ box-shadow: 0px 0px 8px #4B489F;
 	float: none;
 	text-align: right;
 }
+.dashPanel .panelBody table.info a,
+.refLink,
 .link-main,
 .panelFooter a.transparent span,
 .dashPanel .panelFooter .transparent span,
@@ -352,10 +362,12 @@ input[type=checkbox]+label a,
 	min-width: 0;
 	height: auto;
 	position: relative;
-	 background: linear-gradient(to right, rgba(14, 173, 185, 1), rgba(138, 4, 224, 1),rgba(255, 48, 251, 1));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	background: linear-gradient(to right, rgba(14, 173, 185, 1), rgba(138, 4, 224, 1),rgba(255, 48, 251, 1));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
+.dashPanel .panelBody table.info a::after,
+.refLink::after,
 .link-main::after,
 .formItem .getStarted::after,
 input[type=checkbox]+label a::after,
@@ -367,24 +379,24 @@ input[type=checkbox]+label a::after,
 	height: 1px;
 	bottom: 0;
 	left: 0;
-		 background: linear-gradient(to right, rgba(14, 173, 185, 1), rgba(138, 4, 224, 1),rgba(255, 48, 251, 1));
+	background: linear-gradient(to right, rgba(14, 173, 185, 1), rgba(138, 4, 224, 1),rgba(255, 48, 251, 1));
 }
 
 .panelFooter a.transparent:hover span,
 .dashPanel .panelFooter .transparent:hover span {
 	background:none;
 	color: #fff;
-	  -webkit-background-clip: initial;
-  -webkit-text-fill-color: initial;
+	-webkit-background-clip: initial;
+	-webkit-text-fill-color: initial;
 }
 .logo__descr {
 	font-weight: 500;
-font-size: 20px;
-line-height: 23px;
-font-family: Oswald;
-margin-left: 17px;
-max-width: 84px;
-color: #FFFFFF;
+	font-size: 20px;
+	line-height: 23px;
+	font-family: Oswald;
+	margin-left: 17px;
+	max-width: 84px;
+	color: #FFFFFF;
 }
 .header .logo {
 	margin-top: 0;
@@ -396,27 +408,30 @@ color: #FFFFFF;
 	width: 74px;
 	height: 44px;
 }
+.mvc-grid-pager button,
 .link-laguage {
 	font-size: 14px;
-line-height: 16px;
-font-weight: 700;
-text-transform: uppercase;
-color: #fff;
-text-decoration: none;
-width: 39px;
-height: 39px;
-border-radius: 50%;
-background: #23214B;
-border: 1px solid #3A387C;
+	line-height: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	width: 39px;
+	height: 39px;
+	border-radius: 50%;
+	background: #23214B !important;
+	padding: 0;
+	border: 1px solid #3A387C;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 	transition: all 0.3s;
 }
+.mvc-grid-pager button:hover,
 .link-laguage:hover {
-	    border-color: #4A47A8;
-    box-shadow: 0px 0px 8px #4B489F;
+	border-color: #4A47A8;
+	box-shadow: 0px 0px 8px #4B489F;
 }
 .header__wrap {
 	padding-top: 40px;
@@ -431,14 +446,14 @@ border: 1px solid #3A387C;
 }
 .copyright {
 	font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-padding-bottom: 20px;
-margin-top: auto;
-text-align: center;
-	 background: linear-gradient(to right, rgba(149, 144, 222, 1), rgba(152, 147, 238, 0.09));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	font-size: 14px;
+	line-height: 17px;
+	padding-bottom: 20px;
+	margin-top: auto;
+	text-align: center;
+	background: linear-gradient(to right, rgba(149, 144, 222, 1), rgba(152, 147, 238, 0.09));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 .wrapper_panel {
 	min-height: calc(100vh - 160px);
@@ -459,10 +474,10 @@ input[type=checkbox]+label {
 input[type=checkbox]+label:before {
 	top: 6px;
 	background-color: #22214B;
-border: 1px solid #6764BD;
-width: 25px;
-height: 25px;
-border-radius: 4px;
+	border: 1px solid #6764BD;
+	width: 25px;
+	height: 25px;
+	border-radius: 4px;
 }
 .d_flex {
 	display: flex;
@@ -478,9 +493,9 @@ border-radius: 4px;
 }
 .formItem.d_flex p {
 	font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-color: #9691DD;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	color: #9691DD;
 }
 .formItem .getStarted {
 	margin-top: 35px;
@@ -491,6 +506,7 @@ color: #9691DD;
 .dashboard .wrapper {
 	max-width: 1128px;
 }
+.header .userSide .name .logOut,
 .logOut {
 	width: 39px;
 	height: 39px;
@@ -499,6 +515,7 @@ color: #9691DD;
 	display: inline-block;
 	background: linear-gradient(133.25deg, #00F1FF -25.33%, #8A04E0 60.08%, #FF30FB 127.93%);
 }
+.header .userSide .name .logOut::before,
 .logOut::before {
 	position: absolute;
 	display: block;
@@ -507,7 +524,7 @@ color: #9691DD;
 	height: 100%;
 	top: 0;
 	left: 0;
-		background-image: url(../img/ic_logout.svg);
+	background-image: url(../img/ic_logout.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -515,6 +532,7 @@ color: #9691DD;
 	float: none;
 	width: auto;
 	display: flex;
+	justify-content: flex-end;
 	align-items: center;
 }
 .header .userSide .name {
@@ -530,14 +548,14 @@ color: #9691DD;
 .email-user {
 	padding-top: 5px;
 	font-weight: 500;
-font-size: 16px;
-line-height: 18px;
-color: #C3C0E9;
+	font-size: 16px;
+	line-height: 18px;
+	color: #C3C0E9;
 }
 .dashPanel {
 	background: #151230;
-box-shadow: 0px 0px 20px #090627;
-border-radius: 20px;
+	box-shadow: 0px 0px 20px #090627;
+	border-radius: 20px;
 }
 .dashPanel .panelBody table tr td {
 	font-size: 16px;
@@ -562,11 +580,11 @@ border-radius: 20px;
 }
 .dashPanel .panelBody table thead tr th {
 	font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-border-bottom: 1px #342E69 solid;
-text-align: center;
-color: #9290B0;
+	font-size: 14px;
+	line-height: 16px;
+	border-bottom: 1px #342E69 solid;
+	text-align: center;
+	color: #9290B0;
 }
 .dashPanel .panelBody table tr td:last-child {
 	text-align: center;
@@ -586,11 +604,11 @@ button.transparent {
 	color: #fff;
 }
 .dashPanel.small:first-child {
-    width: 56.7%;
+	width: 56.7%;
 }
 .dashPanel.small {
-    width: 40.4%;
-    margin-left: 30px;
+	width: 40.4%;
+	margin-left: 30px;
 }
 .links .panelBody a {
 	width: 100%;
@@ -613,6 +631,7 @@ button.transparent {
 .dashPanel .panelHeader .panelTitle {
 	margin-right: 0;
 }
+.status,
 .status-info {
 	width: 91px;
 	height: 24px;
@@ -621,12 +640,12 @@ button.transparent {
 	justify-content: center;
 	text-align: center;
 	background: linear-gradient(109.95deg, #67DE73 4.55%, #5EC769 95.15%);
-border-radius: 20px;
-font-size: 14px;
-letter-spacing: 0.02em;
-font-weight: 700;
-color: #FFFFFF;
-margin: 0 auto;
+	border-radius: 20px;
+	font-size: 14px;
+	letter-spacing: 0.02em;
+	font-weight: 700;
+	color: #FFFFFF;
+	margin: 0 auto;
 }
 .status-info_deactive {
 	background: linear-gradient(109.95deg, #DE6775 4.55%, #C75E5E 95.15%);
@@ -637,28 +656,32 @@ margin: 0 auto;
 .mvc-grid-empty-row td {
 	border: none !important;
 }
+.dashPanel.small.links .panelFooter,
 .social-dashborad {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
+a[title="Video Manuals"],
+a[title="Telegram"],
 .social-dashborad a {
 	height: 48px; 
-background: #201C48;
-border: 1px solid #3E387A;
-border-radius: 10px;
-align-items: center;
-justify-content: center;
-text-decoration: none;
-text-align: center;
+	background: #201C48;
+	border: 1px solid #3E387A;
+	border-radius: 10px;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	text-align: center;
 	display: flex;
 	font-weight: 600;
-font-size: 16px;
-padding-left: 59px;
-padding-right: 33px;
-color: #C1BCF5;
-background-repeat: no-repeat;
-background-position: 25px center;
+	font-size: 16px;
+	padding-left: 59px;
+	padding-right: 33px;
+	color: #C1BCF5;
+	background-repeat: no-repeat;
+	background-position: 25px center;
+	transition: all 0.3s;
 }
 a[title="Telegram"] {
 	background-image: url(../img/ic_tg.svg);
@@ -666,10 +689,15 @@ a[title="Telegram"] {
 a[title="Video Manuals"] {
 	background-image: url(../img/ic_vd.svg);
 }
+a[title="Video Manuals"]:hover,
+a[title="Telegram"]:hover {
+	    border-color: #4A47A8;
+    box-shadow: 0px 0px 8px #4B489F;
+}
 .dashPanel.small .panelFooter a.transparent {
 	padding-left: 45px;	
 	margin-right: 30px;
-		padding-right: 45px;
+	padding-right: 45px;
 	min-width: 200px;
 }
 .dashPanel.small .panelFooter a.transparent:last-child {
@@ -677,36 +705,38 @@ a[title="Video Manuals"] {
 }
 .dashPanel .panelBody table tr td label {
 	font-weight: 500;
-font-size: 16px;
-color: #9290B0;
+	font-size: 16px;
+	color: #9290B0;
 }
 .dashPanel_bottom .panelHeader  .panelTitle .items,
 .dashPanel_bottom .panelHeader  .panelTitle {
 	display: flex;
 	align-items: center;
 }
+.panelHeader .panelTitle .items,
 .dashPanel_bottom .panelHeader  .panelTitle .items {
 	font-weight: 600;
-font-size: 14px;
-margin-left: 15px;
-margin-top: 5px;
-letter-spacing: 0.03em;
-font-size: 14px;
-color: #9691DD;
+	font-size: 14px;
+	margin-left: 15px;
+	margin-top: 5px;
+	letter-spacing: 0.03em;
+	font-size: 14px;
+	color: #9691DD !important;
 }
+
 .dashPanel .panelHeader .panelTitle .items .num {
 	font-size: 14px;
 }
 .dashPanel.small .panelHeader {
-padding: 35px 35px;
-padding-bottom: 0;
+	padding: 35px 35px;
+	padding-bottom: 0;
 
 
 }
 .dashPanel.small .panelHeader .panelTitle {
 	padding: 0;
 	padding-bottom: 17px;
-		border-bottom: 1px #342e69 solid;
+	border-bottom: 1px #342e69 solid;
 }
 .dashPanel.small.links .panelFooter {
 	padding-top: 0;
@@ -726,14 +756,104 @@ padding-bottom: 0;
 .dashPanel.small.links .panelBody {
 	padding-top: 30px;
 }
-.links-personal {
-	padding-top: 15px;
+.dashPanel.small:first-of-type .panelFooter{
+	padding-top: 25px;
+	margin-top: 5px;
 	border-top: 1px solid #342E69;
 }
-
+.dashPanel.small:first-of-type  .panelFooter {
+	margin-left: 30px;
+	padding-left: 0;
+	max-width: 89%;
+	max-width: calc(100% - 65px)
+}
 .dashPanel .panelFooter .transparent::before {
 	top: 1px;
 	left: 1px;
 	right: 1px;
 	bottom: 1px;
+}
+
+.mvc-grid-pager {
+	margin-top: 30px;
+}
+.mvc-grid-pager button {
+	margin: 0 5px;
+}
+.header {
+	padding-top: 40px;
+}
+.header__wrap {
+	padding-top: 0;
+}
+.dashPanel .panelHeader .panelTitle {
+	display: flex;
+	align-items: center;
+}
+.dashPanel .panelHeader .panelTitle .items {
+	display: flex;
+	align-items: center;
+}
+.right .userSide {
+	margin-right: 0;
+}
+.separ {
+	display: none;
+}
+.transparent.fright.green[content=" "] {
+	display: none !important;
+}
+.selectBox .items label {
+	z-index: 2;
+}
+.selectBox .select input:not(:checked)~.placeholder::before,
+.selectBox .items label::before {
+	border-radius: 4px;
+}
+.selectBox .select input:not(:checked)~.placeholder {
+	z-index: 2;
+}
+.selectBox .select input:not(:checked)~.placeholder,
+.selectBox .items label {
+	color: #fff !important;
+	background: linear-gradient(91.82deg, #0EADB9 -0.28%, #8A04E0 50.49%, #FF30FB 110.49%);
+}
+.selectBox .select input:not(:checked)~.placeholder {
+	opacity: 1;
+}
+.selectBox .select input:checked~.placeholder {
+	opacity: 0;
+}
+.selectBox .items label:hover {
+	background: linear-gradient(91.82deg, #0EADB9 -0.28%, #8A04E0 50.49%, #FF30FB 110.49%);
+}
+.selectBox .items label:hover::before {
+	opacity: 0;
+}
+.dashPanel .panelFooter .total b,
+.dashPanel .panelFooter .total {
+	color: #fff;
+}
+.selectBox .selectInput:disabled~.items {
+	border: none !important;
+}
+.dashPanel .panelBody table tr td input[type=checkbox]:checked+label {
+	color: #fff;
+}
+
+button[onclick="document.getElementById('ALLINONE_PACKAGE_plolongate_addon').click()"]::after {
+opacity: 1;
+}
+.link-laguage {
+	margin-left: 45px;
+}
+.panelFooter a {
+	text-decoration: none !important;
+}
+.dashPanel_referal .panelFooter {
+	padding-top: 0 !important;
+	border: none !important;
+}
+.mvc-grid-pager button::after {
+	display: none;
 }

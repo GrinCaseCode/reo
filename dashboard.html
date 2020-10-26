@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="UTF-8">
+
+    <title>Dashboard</title>
+    <link rel="shortcut icon" href="/img/favicon_roemaker.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.0.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"></script>
+</head>
+<body class="dashboard">
+    <div class="header">
+        <div class="wrapper">
+
+            <div class="header__wrap">
+                <div class="left half">
+                    <a class="logo" href="#">
+                        <img src="img/logo.svg" alt="QUANTOWER LOGO">
+                        <span class="logo__descr">ROE MAKER</span>
+                    </a>
+                </div>
+
+                <div class="header__right">
+                    <div class="right half">
+                        <div class="userSide">
+                            <div class="name">  Nick Grin</div>
+                            <div class="email-user">haritonov94@bk.ru</div>
+                        </div>
+                         <a href="#" class="link-laguage">RU</a>
+                    <a class="logOut" title="Log out" href="/logout"></a>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="main">
+    <div class="wrapper">
+        
+
+
+<div class="dashPanel small">
+    <div class="panelHeader">
+        <div class="panelTitle">
+            Account info
+        </div>
+    </div>
+
+    <div class="panelBody">
+        <table cellpadding="0" cellspacing="0" class="info">
+            <tbody>
+            <tr>
+                <td>
+                    <label>Full Name</label>
+                </td>
+                <td>Nick Grin</td>
+            </tr>
+            <tr>
+                <td>
+                    <label>E-mail</label>
+                </td>
+                <td>grinmail84@gmail.com</td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Password</label>
+                </td>
+                <td>
+                    <a href="https://identity.roemaker.qtower.app/Account/ChangePassword?returnUrl=https%3a%2f%2faccounts.roemaker.qtower.app%2frenewSession" class="link-main" data-target="modal">Change</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="panelFooter">
+       <div class="links-personal">
+            <a class="transparent" href="https://identity.roemaker.qtower.app/Account/EditUserInfo?returnUrl=https%3a%2f%2faccounts.roemaker.qtower.app%2frenewSession" data-target="modal">
+            <span>Edit info</span>
+        </a>
+            <a class="transparent" href="/ReferralProgram"><span>Referral program</span></a>
+       </div>
+    </div>
+</div><div class="dashPanel small links">
+    <div class="panelHeader">
+        <div class="panelTitle">
+            Links &amp; resources
+        </div>
+    </div>
+
+    <div class="panelBody">
+                <a href="https://updates.quantower.com/ROE_MAKER/x64/latest/ROE_MAKER.exe" class="" target="_blank" title="Download 64-bit">Download&nbsp;<span>64-bit</span></a>
+                <span>&nbsp;</span>
+                <a href="https://updates.quantower.com/ROE_MAKER/x86/latest/ROE_MAKER.exe" class="" target="_blank" title="Download 32-bit">Download&nbsp;<span>32-bit</span></a>
+                <span>&nbsp;</span>
+    </div>
+
+    <div class="panelFooter social-dashborad">
+                <a href="https://t.me/FundFakel" class="" target="_blank" title="Telegram">Telegram</a>
+               <a href="https://www.youtube.com/channel/UC5oC8txek27-o_2U1gjrmHA/featured" class="" target="_blank" title="Video Manuals">Video Manuals</a>
+
+    </div>
+</div>
+<div class="dashPanel">
+    <div class="panelHeader">
+        <div class="panelTitle">
+            Addons licenses
+        </div>
+    </div>
+
+    <div class="panelBody">
+            <table cellpadding="0" cellspacing="0" class="addonsTable">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Status</th>
+                    <th>Available till</th>
+                    <th>Last</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+
+                <tbody>
+
+                        
+                        <tr>
+                            <td>All-in-One Package</td>
+                            <td><div class="status-info">active</div></td>
+                            <td>10/22/2020  </td>
+                            <td>4 days  </td>
+
+                            <td class="actionsCol">
+                                    <button class="transparent fright green" onclick="document.getElementById('ALLINONE_PACKAGE_buy_addon').click()">
+                                        Buy
+                                    </button>
+                                    <a hidden="" id="ALLINONE_PACKAGE_buy_addon" href="/OrderPayment/AddToBasket?ruleId=ALLINONE_PACKAGE%7CMonth1"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Test Package</td>
+                           <td><div class="status-info status-info_deactive">active</div></td>
+                            <td>10/22/2020  </td>
+                            <td>4 days  </td>
+
+                            <td class="actionsCol">
+                                    <button class="transparent fright green" onclick="document.getElementById('TEST_PACKAGE_buy_addon').click()">
+                                        Buy
+                                    </button>
+                                    <a hidden="" id="TEST_PACKAGE_buy_addon" href="/OrderPayment/AddToBasket?ruleId=TEST_PACKAGE%7CMonth1"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Crypto Package</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+
+                            <td class="actionsCol">
+                                    <button class="transparent fright green" onclick="document.getElementById('CRYPTO_PACKAGE_buy_addon').click()">
+                                        Buy
+                                    </button>
+                                    <a hidden="" id="CRYPTO_PACKAGE_buy_addon" href="/OrderPayment/AddToBasket?ruleId=CRYPTO_PACKAGE%7CMonth1"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Multi-asset Package</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+
+                            <td class="actionsCol">
+                                    <button class="transparent fright green" onclick="document.getElementById('MULTI_ASSET_PACKAGE_buy_addon').click()">
+                                        Buy
+                                    </button>
+                                    <a hidden="" id="MULTI_ASSET_PACKAGE_buy_addon" href="/OrderPayment/AddToBasket?ruleId=MULTI_ASSET_PACKAGE%7CMonth1"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Advanced Features</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+
+                            <td class="actionsCol">
+                                    <button class="transparent fright green" onclick="document.getElementById('PREMIUM_PACKAGE_buy_addon').click()">
+                                        Buy
+                                    </button>
+                                    <a hidden="" id="PREMIUM_PACKAGE_buy_addon" href="/OrderPayment/AddToBasket?ruleId=PREMIUM_PACKAGE%7CMonth1"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Volume Analysis</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+
+                            <td class="actionsCol">
+                                    <button class="transparent fright green" onclick="document.getElementById('VOLUMEANALYSIS_PACKAGE_buy_addon').click()">
+                                        Buy
+                                    </button>
+                                    <a hidden="" id="VOLUMEANALYSIS_PACKAGE_buy_addon" href="/OrderPayment/AddToBasket?ruleId=VOLUMEANALYSIS_PACKAGE%7CMonth1"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Power Trades</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+
+                            <td class="actionsCol">
+                                    <button class="transparent fright green" onclick="document.getElementById('POWERTRADES_PACKAGE_buy_addon').click()">
+                                        Buy
+                                    </button>
+                                    <a hidden="" id="POWERTRADES_PACKAGE_buy_addon" href="/OrderPayment/AddToBasket?ruleId=POWERTRADES_PACKAGE%7CMonth1"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>DOM Surface</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+
+                            <td class="actionsCol">
+                                    <button class="transparent fright green" onclick="document.getElementById('DOMSURFACE_PACKAGE_buy_addon').click()">
+                                        Buy
+                                    </button>
+                                    <a hidden="" id="DOMSURFACE_PACKAGE_buy_addon" href="/OrderPayment/AddToBasket?ruleId=DOMSURFACE_PACKAGE%7CMonth1"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>TPO Chart</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+
+                            <td class="actionsCol">
+                                    <button class="transparent fright green" onclick="document.getElementById('TPOCHART_PACKAGE_buy_addon').click()">
+                                        Buy
+                                    </button>
+                                    <a hidden="" id="TPOCHART_PACKAGE_buy_addon" href="/OrderPayment/AddToBasket?ruleId=TPOCHART_PACKAGE%7CMonth1"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Option Trading</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+
+                            <td class="actionsCol">
+                                    <button class="transparent fright green" onclick="document.getElementById('OPTIONS_PACKAGE_buy_addon').click()">
+                                        Buy
+                                    </button>
+                                    <a hidden="" id="OPTIONS_PACKAGE_buy_addon" href="/OrderPayment/AddToBasket?ruleId=OPTIONS_PACKAGE%7CMonth1"></a>
+                            </td>
+                        </tr>
+
+                </tbody>
+            </table>
+    </div>
+
+    <div class="panelFooter">
+            <button class="transparent" onclick="document.getElementById('more_addons_page_href').click()">
+                <span>get more addons</span>
+            </button>
+            <a id="more_addons_page_href" href="https://www.roemaker.com/pricing"></a>
+    </div>
+</div>
+
+<div class="dashPanel dashPanel_bottom">
+    <div class="panelHeader">
+        <div class="panelTitle">
+            Payments history
+
+            <div class="fright">
+                <div class="items">
+                    <div id="payments_rows_count" class="num">0  items</div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="panelBody">
+
+        
+<div class="mvc-grid mvc-grid-excel-mode" data-name="" data-id="0">
+    <table>
+        <thead>
+        <tr class="mvc-grid-headers">
+                <th>
+                        <span class="mvc-grid-title">Order</span>
+                </th>
+                <th>
+                        <span class="mvc-grid-title">Payment date</span>
+                </th>
+                <th>
+                        <span class="mvc-grid-title">Items</span>
+                </th>
+                <th>
+                        <span class="mvc-grid-title">Status</span>
+                </th>
+                <th>
+                        <span class="mvc-grid-title">Amount</span>
+                </th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr class="mvc-grid-empty-row">
+                <td colspan="5">
+                    Now you don&amp;#x27;t have any purchases from referrals
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+<div class="mvc-grid-pager" data-total-rows="0">
+        <input class="mvc-grid-pager-rows" type="hidden" value="5">
+</div></div>
+    </div>
+</div>
+    </div>
+</div>
+
+
+<script src="/js/mvc-grid/mvc-grid.js"></script>
+<script>
+        document.querySelectorAll(".mvc-grid").forEach(element => new MvcGrid(element));
+    </script>
+
+
+
+</body></html>

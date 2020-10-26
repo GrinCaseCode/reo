@@ -857,3 +857,6 @@ opacity: 1;
 .mvc-grid-pager button::after {
 	display: none;
 }
+body {
+	min-width: 1200px;
+}
